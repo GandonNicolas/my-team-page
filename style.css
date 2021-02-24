@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+/* font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Montserrat', sans-serif; */
+
+header {
+    width: 95%;
+    margin: 30px auto;
+}
+.box1 {
+    margin: 0 auto 30px auto;
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    color: #000000;
+ }
+ .box2 {
+     width: 53%;
+ }
+ .under-title {
+    margin: 0 auto 10px auto;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+ }
+ .text {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+ }
+ .main-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 95%;
+    margin: 30px auto;
+    /* background: red; */
+ }
+ .card {
+    width: 40%;
+    padding: 0.5em;
+    /* background: blueviolet; */
+    position: relative;
+ }
+ img {
+     width: 80%;
+     height: auto;
+ }
+ .job-name {
+    position: absolute;
+    writing-mode: vertical-rl;
+    height: auto;
+    top: 8%;
+    left: 83%;
+    font-family: 'PT Serif', serif;
+    font-size: 70%;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: normal;
+ }
+ .name {
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    font-style: normal;
+    font-weight: 600;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+ }
+.card-child {
+    margin-top: 60px;
+}
+.container-footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 350px;
+    height: 17px;
+}
+
+#created {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD
+}
+
+#username {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    Line-height: 17.07px;
+    text-align: Center;
+    color: #BDBDBD;
+    text-decoration: underline;
+}
+@media only screen and (min-width: 770px) {
+    header {
+        width: 80%;
+        margin: 100px auto 30px auto;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+    }
+    .box1 {
+        width: 50%;
+        margin: 0;
+    }
+    .box2 {
+        width: 40%;
+    }
+    .main-container {
+        width: 80%;
+        margin: 60px auto;
+    }
+    .card {
+        width: 30%;
+    }
+}
